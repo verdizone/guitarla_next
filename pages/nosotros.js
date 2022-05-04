@@ -1,15 +1,14 @@
 import Layout from "../components/Layout";
-
-const Index = () => {
+const Nosotros = () => {
   return (
     <div>
       <Layout
-        pagina="Inicio"
+        pagina="Nosotros"
       >
-        <h1>Aprendiendo Next</h1>
+        <h1>Desde Nosotros</h1>
       </Layout>
     </div>
   );
 };
 
-export default Index;
+export default Nosotros;
